@@ -4,9 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Abstract
+namespace Entities.Abstract
 {
-    public interface ICustomerDal:IEntityRepository<Customer>
+    public interface IOrderDal:IEntityRepository<Order>
     {
     }
 }
